@@ -13,9 +13,9 @@ import ProductComponent from './components/ProductComponent.vue';
 
 export default {
     components:{
-        FooterComponent,
         HeaderComponent,
-        ProductComponent
+        ProductComponent,
+        FooterComponent
     }
 }
 
