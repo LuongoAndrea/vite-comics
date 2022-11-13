@@ -1,6 +1,5 @@
 <template>
     <section>
-        <span>Sono footer </span>
     </section>
 </template>
 

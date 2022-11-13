@@ -93,6 +93,7 @@
 
     header{
         overflow-x: hidden;
+        background-color: $white;
         .container{
             display: flex;
             justify-content: space-between;
@@ -105,12 +106,12 @@
 
             li{
                 height: 100%;
-                list-style: none;
+                
                 div.link{
                     padding: 10px;
                     
                     a{
-                        text-decoration: none;
+                        
                         text-transform: uppercase;
                         color: $black;
                     }

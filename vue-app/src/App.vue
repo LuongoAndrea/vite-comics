@@ -15,7 +15,8 @@ export default {
     components:{
         HeaderComponent,
         ProductComponent,
-        FooterComponent
+        FooterComponent,
+        
     }
 }
 
