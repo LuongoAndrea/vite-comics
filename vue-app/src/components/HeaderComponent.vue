@@ -119,9 +119,9 @@
                 }
                 div.linea{
                     // background-color: $blue;
-                    height: 5px;
+                    height: 10px;
                     position: relative;
-                    top: 30px;
+                    top: 47px;
                 }
                 .link.active a{
                     color: $blue;
