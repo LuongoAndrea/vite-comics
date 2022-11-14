@@ -1,11 +1,18 @@
 <template>
-    <section>
+    <section class="container">
+
+        <CardsComponent/>
     </section>
 </template>
 
 <script>
+    import CardsComponent from './CardsComponent.vue';
+
     export default {
-        name:'ProductComponent.vue'
+        name:'ProductComponent.vue',
+        components:{
+            CardsComponent
+        }
     }
 </script>
 
