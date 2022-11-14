@@ -111,6 +111,7 @@
     }
     .title{
         width: 150px;
+        text-transform: uppercase;
     }
 
 
