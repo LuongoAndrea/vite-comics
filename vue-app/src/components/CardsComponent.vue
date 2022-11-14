@@ -1,15 +1,14 @@
 <template>
-    <div class="d-flex">
-        <div v-for="(item, index) in film" class="card">
-            <div class="img">
-                <img :src="item.thumb" alt="">
-            </div>
-            <div class="title">
-                <span class="title">{{item.series}}</span>
+        <div class="d-flex container" >
+            <div v-for="(item, index) in film" class="card">
+                <div class="img">
+                    <img :src="item.thumb" alt="">
+                </div>
+                <div class="title">
+                    <span class="title">{{item.series}}</span>
+                </div>
             </div>
         </div>
-    </div>
-    
 </template>
 
 <script>
@@ -97,6 +96,7 @@
 </script>
 
 <style lang="scss" scoped>
+@use '../assets/styles/partials/variables' as *;
     .d-flex{
         display: flex;
         flex-wrap: wrap;
@@ -110,6 +110,7 @@
         width: 150px;
     }
     .title{
+        color: $white;
         width: 150px;
         text-transform: uppercase;
     }
