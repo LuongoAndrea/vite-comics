@@ -92,7 +92,7 @@
     // @use '../assets/styles/general.scss' as *;
 
     header{
-        overflow-x: hidden;
+        overflow: hidden;
         background-color: $white;
         .container{
             display: flex;
